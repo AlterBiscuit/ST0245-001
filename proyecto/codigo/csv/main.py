@@ -18,11 +18,3 @@ sick = (list2, dir2)
 
 for i in healthy:
     print(i)
-
-
-    
-
-
-
-
- 
