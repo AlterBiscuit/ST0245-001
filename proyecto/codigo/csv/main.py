@@ -10,11 +10,10 @@ def load(dlist, directory):
     csv_list = []
     for i in dlist:
         with open(directory + i, 'r') as csv_file:
-            csv_list.append(csv.reader(csv_file))
+            csv_list.append(csv_file.readlines())
     return csv_list
 
 healthy = load(list1, dir1)
-sick = (list2, dir2)
+sick = load(list2, dir2)
 
-for i in healthy:
-    print(i)
+print(healthy[1])
