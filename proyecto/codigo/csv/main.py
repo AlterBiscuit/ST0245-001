@@ -15,5 +15,3 @@ def load(dlist, directory):
 
 healthy = load(list1, dir1)
 sick = load(list2, dir2)
-
-print(healthy[1])
